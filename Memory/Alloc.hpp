@@ -25,13 +25,12 @@ namespace Memory
 #ifdef SCRT_USE_CUSTOM_MALLOC
     extern "C"
     void *__cpprt_malloc(size_t);
-    
+
     extern "C"
     void *__cpprt_realloc(void *, size_t);
 
     extern "C"
     void __cpprt_free(void *);
-
 #endif
 
 inline void *Memory::Heap::Allocate(size_t Size)
