@@ -19,7 +19,7 @@ template< typename _T >
 class Containers::Stack
 {
 public:
-    Stack() : m_HeapManager()
+    Stack() : m_HeapManager(), m_Size(0)
     {
     }
 

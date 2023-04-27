@@ -67,6 +67,7 @@ int main()
 
     printf("=======================\n");
 
+#if 1
     cpprt::Containers::Stack< int > Stack = cpprt::Containers::Stack< int >();
     Stack.Push(1);
     Stack.Push(2);
@@ -77,6 +78,7 @@ int main()
     Stack.Pop();
 
     printf("=======================\n");
+#endif
 
     return 0;
 }
